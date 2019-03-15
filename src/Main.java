@@ -10,9 +10,9 @@ public class Main {
 
         for (int x=0;x< 10;x++) System.out.println("Hello World ! "+ x);
 
-        IntStream.range(0, 10).mapToObj(x -> "Hello World !").forEach(System.out::println);
+        IntStream.range(0, 10).mapToObj(x -> "Hello World !" + x).forEach(System.out::println);
 
-        IntStream.range(0, 10).mapToObj(x -> "Hello World !").forEachOrdered(System.out::println);
+        IntStream.range(0, 10).mapToObj(x -> "Hello World !" + x).forEachOrdered(System.out::println);
 
         int x=0;
         while (x< 10) {
@@ -22,7 +22,7 @@ public class Main {
 
         int x1;
         for (x1 = 0; x1< 10; x1++){
-            System.out.println("Hello World !");
+            System.out.println("Hello World !" + x1);
         }
 
     }
