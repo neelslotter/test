@@ -28,5 +28,8 @@ public class Main {
         int y;
         for (y = 110; y != 5; y--) System.out.println("Hello World !" + y);
 
+        int k;
+        for (k = 110; k != 5; k--) System.out.println("Hello World ! k " + k);
+
     }
 }
