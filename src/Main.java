@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        //doLoop(1, 1000);
+        doLoop(1, 1000);
         doBackward(1000, 1);
     }
 
