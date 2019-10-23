@@ -17,6 +17,7 @@ public class Main {
 
     }
 
+
     private static void doLoop(int aMin, int aMax) {
         for (int x = aMin; x < aMax; x++) {
             System.out.println("Hello World ! " + x);
