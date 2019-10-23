@@ -22,6 +22,7 @@ public class Main {
             System.out.println("Hello World ! " + x);
         }
 
+
         for (int x = aMin; x < 10; x++) System.out.println("Hello World ! " + x);
 
         IntStream.range(aMin, aMax).mapToObj(x -> "Hello World !" + x).forEach(System.out::println);
