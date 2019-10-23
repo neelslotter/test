@@ -24,6 +24,9 @@ public class Main {
         for (x1 = 0; x1< 10; x1++){
             System.out.println("Hello World !" + x1);
         }
+        
+        int y;
+        for (y = 110; y != 5; y--) System.out.println("Hello World !" + y);
 
     }
 }
