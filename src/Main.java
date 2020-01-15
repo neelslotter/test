@@ -8,6 +8,10 @@ public class Main {
         doBackward(1000, 1);
     }
 
+    private static String boo(String hoerpoef){
+        return "";
+    }
+    
     private static String doUrlencoding(String hoerpoef){
         return java.lang.System.currentTimeMillis().toString();
     }
